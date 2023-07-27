@@ -27,6 +27,7 @@ class Snacktest(TestCase):
         self.assertTemplateUsed(response,'snack_detail.html')
 
 
+
     def test_create_view(self):
         url = reverse('snack_create')
         data={
